@@ -1,0 +1,20 @@
+let tablerow = document.createElement('tr');
+    let tabledata = document.createElement('td');
+    let tabledata2 = document.createElement('td');
+    let tabledata3 = document.createElement('td');
+    let tabledata4 = document.createElement('td');
+    
+    tabledata.textContent = title;
+    tabledata2.textContent = author;
+    tabledata3.textContent = pages;
+    tabledata4.textContent = isread;
+    
+    tablerow.appendChild(tabledata);
+    tablerow.appendChild(tabledata2);
+    tablerow.appendChild(tabledata3);
+    tablerow.appendChild(tabledata4);
+    
+    table.appendChild(tablerow);
+    
+    form.style.display = 'none';
+    clsselector.style.display = 'none';

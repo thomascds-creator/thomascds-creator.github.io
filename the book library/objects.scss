@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+#tablesection{
+    
+    margin:0 auto;
+    padding:10px;
+    width:50%;
+    border:1px solid black;
+    
+}
+#table{
+    margin:0 auto;
+    width:100%;
+    border:1px solid black;
+    
+    td{
+
+        text-align:center;
+        
+    }
+    tr:nth-child(odd){
+        background-color:#303443;
+        color:white;
+    }
+}
+.motherform{
+    width:50%;
+    margin:0 auto;
+    border:1px solid black
+}
+.formcontrol{
+    margin:0 auto;
+    width:100%;
+}
+.button{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    background-color:#47484B;
+   
+}
+.flexer{
+    display:flex;
+    justify-content:center;
+    display:none;
+}
+button{
+    padding:5px;
+    background-color:limegreen;
+    color:white;
+    cursor:pointer;
+}
+.form{
+    display:flex;
+    justify-content:center;
+}
+#form{
+    display:none;
+    margin:0 20px;
+    padding:10px;
+}

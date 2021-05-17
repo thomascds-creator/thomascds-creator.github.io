@@ -1,0 +1,58 @@
+
+//let title = prompt(`what is the title of the book`)
+//let author = prompt(`what is the name of the author`)
+//let pages = parseInt(prompt(`how many pages have you read`));
+//let isread = prompt(`have you read the book`)
+//
+//
+//let info = {};
+//
+//info = {title,author,pages,isread};
+//
+//let myarray = [info]
+//
+//
+//let table = document.getElementById('table');
+//let tablerow = document.createElement('tr');
+//let tabledata = document.createElement('td');
+//let tabledata2 = document.createElement('td');
+//let tabledata3 = document.createElement('td');
+//let tabledata4 = document.createElement('td');
+
+let button = document.querySelector('#button');
+let closebutton = document.querySelector('#closebutton');
+let form = document.querySelector('#form');
+
+//function addbooktolibrary(array){
+//    
+//    for(let i = 0; i<array.length; i++){
+//             
+//        tabledata.textContent = `${array[i].title}`;
+//        tabledata2.textContent = `${array[i].author}`;
+//        tabledata3.textContent = `${array[i].pages}`;
+//        tabledata4.textContent = `${array[i].isread}`;
+//        
+//
+//    }
+//    
+//    
+//};
+
+button.onclick = function(){
+    
+    form.style.display = 'block';
+}
+
+closebutton.onclick = function(){
+    
+    form.style.display = 'none';
+}
+
+//addbooktolibrary(myarray)
+//tablerow.appendChild(tabledata);
+//tablerow.appendChild(tabledata2);
+//tablerow.appendChild(tabledata3);
+//tablerow.appendChild(tabledata4);
+//table.appendChild(tablerow);
+
+
