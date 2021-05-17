@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    position:relative;
+}
+.container{
+    width:100%;
+    padding-top:20px;
+    
+}
+.navbar{
+    width:100%;
+    padding:0px 20px;
+  
+}
+.position{
+    float:right;
+}
+.navbar a{
+    
+    text-decoration: none;
+    margin-right:15px;
+    color:black;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.signin{
+    position:relative;
+    background-color:#4386FA;
+    width:60px;
+    margin-top:-10px;
+    padding:5px;
+    color:white;
+   
+}
+.googlesearch{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+}
+.flexcontainer{
+    margin-top:110px;
+    
+}
+#inputbox{
+     margin-top:30px;
+     width:100%;
+     border:1px solid black;
+     display:flex;
+     justify-content: center;
+     border-radius:50px;
+     border:1px solid #DFE1E5;
+     
+}
+#inputbox:hover{
+    
+    box-shadow:0px 0px 5px 2px #DFE1E5;
+}
+
+.searchicon{
+    display:inline-block;
+    padding:9.3px;
+    height:45px;
+
+    
+}
+.searchinput{
+    display:inline-block;
+    
+}
+.searchinput input{
+    outline:none;
+    border-style:none;
+    width:480px;
+    height:45px;
+}
+
+.micicon{
+    display:inline-block;
+    padding:9.3px;
+    height:45px;
+    
+}
+
+.googleisearch{
+    display:inline-block;
+    width:10%;
+    margin-left:530px;
+    margin-top:30px;
+    margin-right:10px;
+    background-color:#F4F4F4;
+    text-align:center;
+    padding:5px 0px;
+    cursor:pointer;
+}
+.feelinglucky{
+    display:inline-block;
+    width:10%;
+    margin-top:30px;
+    margin-right:0px;
+    background-color:#F4F4F4;
+    text-align:center;
+    padding:5px 0px;
+    cursor:pointer;
+}
+.footer{
+    background-color:#F4F4F4;
+    padding:12px;
+    margin-top:200px;
+}
+.footer a{
+    text-decoration:none;
+    margin-right:20px;
+}
+.footer .positionfooter{
+    float:right;
+}
+.footer a:hover{
+    text-decoration:underline;
+}
+.footer a:nth-of-type(1){
+    margin-left:15px;
+}
