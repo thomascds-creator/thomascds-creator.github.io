@@ -273,7 +273,7 @@ input, select, textarea {
 			width: 100%;
 		}
         #para{
-            text-align:justify;
+/*            text-align:justify;*/
         }
         .contactdisp{
            display:flex;
@@ -292,6 +292,9 @@ input, select, textarea {
           
             
         }
+        .pcontent{
+            width:100%;
+        }
 
 		@media screen and (max-width: 980px) {
 
@@ -300,7 +303,7 @@ input, select, textarea {
 				max-width: 100% !important;
 			}
             #para{
-                text-align:left;
+/*                text-align:left;*/
             }
             .contactdisp{
                  border-bottom-color:white;
@@ -313,6 +316,17 @@ input, select, textarea {
 			.container {
 				max-width: calc(100% - 3em);
 			}
+            .align{
+/*               list-style:none;*/
+               display:flex;
+               flex-direction:column;
+          
+            
+            }
+            .icon, .solid, .fa-home{
+                display:none;
+            }
+            
             
 		}
 
