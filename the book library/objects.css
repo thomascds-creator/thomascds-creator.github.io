@@ -3,67 +3,36 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-#tablesection {
-  margin: 0 auto;
-  padding: 10px;
-  width: 50%;
-  border: 1px solid black;
+#inplacer{
+    width:50%;
+    margin:0 auto;
 }
-
-#table {
-  margin: 0 auto;
-  width: 100%;
-  border: 1px solid black;
+.headform{
+     border: 1px solid black;
 }
-#table td {
-  text-align: center;
-}
-#table tr:nth-child(odd) {
-  background-color: #303443;
-  color: white;
-}
-
 .motherform {
-  width: 50%;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-
-.formcontrol {
-  margin: 0 auto;
   width: 100%;
+  display:flex;
+  justify-content:center;
 }
-
-.button {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  background-color: #47484B;
+.formcontrol {
+  width: 100%;
+  text-align: center; 
 }
-
-.flexer {
-  display: flex;
-  justify-content: center;
-  display: none;
+.button{
+    background-color: #47484B;
 }
-
 button {
   padding: 5px;
   background-color: limegreen;
   color: white;
   cursor: pointer;
 }
-
-.form {
+#form {
+    display: none;
+}
+.flexer {
   display: flex;
   justify-content: center;
-}
-
-#form {
   display: none;
-  margin: 0 20px;
-  padding: 10px;
 }
-
-/*# sourceMappingURL=objects.css.map */
