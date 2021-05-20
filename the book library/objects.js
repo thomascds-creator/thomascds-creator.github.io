@@ -106,10 +106,10 @@ subbutton.onclick = function(){
     
     readstatus.onclick = function(){
         alert('success you changed the read status');
-        if(tabledata[3].textContent === 'yes'){
+        if(tabledata[3].textContent === 'yes'|| tabledata[3].textContent === 'Yes'){
             tabledata[3].textContent = 'no';
         }
-        else if(tabledata[3].textContent === 'no' || tabledata[3].textContent === 'none' ){
+        else if(tabledata[3].textContent === 'no' || tabledata[3].textContent === 'No'|| tabledata[3].textContent === 'none' ){
             tabledata[3].textContent = 'yes';   
         }
         
