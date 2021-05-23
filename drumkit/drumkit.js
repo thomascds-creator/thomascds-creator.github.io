@@ -2,7 +2,7 @@
 window.onload = () => {
     
     alert("press the keys as shown in the drum kit:-'A,S,D,F etc to play the sound' ");
-   
+    alert("This app requires a virtual keyboard/connected keyboard in order to work on smartphones");
 }
 
 window.addEventListener("keydown",function(e){
