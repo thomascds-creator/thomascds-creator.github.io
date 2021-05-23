@@ -21,30 +21,35 @@
   width: 100%;
   height: 100vh;
   justify-content: center;
-  align-items: center;
   background: transparent;
 }
 
 .styling {
-  width: 8%;
-  text-align: center;
-  margin-right: 20px;
-  background: transparent;
-  font-family: roboto;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: 5px solid white;
-  transition: border 0.07s;
+  margin-top: 160px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
   color: white;
-  cursor: pointer;
+  font-size: 10px;
+  text-align: center;
+  transform: scale();
+  transition: transform 0.5s 0.5s ease;
 }
 
-.separate {
-  margin-bottom: 35px;
+div[data-key="65"] {
+  margin-right: 5px;
 }
 
-.playing {
-  border-color: red;
+.style2 {
+  margin-right: 5px;
+}
+
+@media (min-width: 700px) {
+  .styling {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /*# sourceMappingURL=drumkit.css.map */

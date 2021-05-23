@@ -1,33 +1,50 @@
 
-
+window.onload = () => {
+    
+    alert("press the keys as shown in the drum kit:-'A,S,D,F etc to play the sound' ");
+}
 
 window.addEventListener("keydown",function(e){
+    try {
+        let key = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
+
+        let keytrans = document.querySelector(`div[data-key = "${e.keyCode}"]`);
+
+        if (!keytrans) {
+            return;
+        }
+        keytrans.style.borderColor = 'green';
+        keytrans.style.backgroundColor = 'green';
+        keytrans.style.transform = 'scale(4,4)';
+        if (!key) {
+            return;
+        }
+
+
+        key.currentTime = 0;
+        key.play();
+    } catch (Error) {
+        console.log(Error.message)
+    }
     
     
-    let key = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
-    
-    
-//    let keytrans = document.querySelector(`div[data-key = "${e.keyCode}"]`);
-    
-    
-    if(!key){return;}
-    
-   
-    
-    key.currentTime = 0;
-    key.play();
-    
-    
-   
    
 })
 
 
 window.addEventListener("keyup",function(e){
-                        
-       let keytrans = document.querySelector(`div[data-key = "${e.keyCode}"]`);
-    
-       if(!keytrans){return;}
+       try {
+           let keytrans2 = document.querySelector(`div[data-key = "${e.keyCode}"]`);
+
+           if (!keytrans2) {
+               return;
+           }
+           keytrans2.style.borderColor = 'white';
+           keytrans2.style.backgroundColor = 'transparent';
+           keytrans2.style.transform = 'scale(1,1)';
+       } catch (Error) {
+           console.log(Error.message)
+       }
        
 
     
