@@ -2,10 +2,11 @@
 window.onload = () => {
     
     alert("press the keys as shown in the drum kit:-'A,S,D,F etc to play the sound' ");
-    prompt('enter yes to proceed');
+   
 }
 
 window.addEventListener("keydown",function(e){
+        
     try {
         let key = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
 
